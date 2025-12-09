@@ -53,3 +53,31 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Exclude object files and executables
+*.o
+*.ko
+*.obj
+*.elf
+*.exe
+
+# Exclude MPLAB X specific build directories and generated files
+nbproject/build/
+nbproject/dist/
+nbproject/private/
+nbproject/disassembly/
+build/
+dist/
+private/
+disassembly/
+
+# Exclude temporary and editor-specific files
+~*.*
+*.zip
+*.mk
+*.bash
+*.dump
+Makefile-genesis.properties
+
+# Exclude user-specific settings (if not shared)
+*.user
