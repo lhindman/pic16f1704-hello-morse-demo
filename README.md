@@ -72,7 +72,7 @@ Construct the circuit as shown in the schematic diagram below, including the con
 ### Programming
 ***The following steps assume you've successfully completed the above programming steps on the Curiosity LPC board.***   
 
-It is theoretically possible to power the PIC chip directly from the PICkit4 device, however the resources I found online strongly discouraged this. The reason is that the USB port struggles to supply sufficient current to program these chips at 5v anyway and any additional circuitry will further reduce the available programming current. Before programming our device, we must reconfigure out project to use the PICkit4 programmer and configure the programmer to NOT attempt to power the target device.
+It is theoretically possible to power the PIC chip directly from the PICkit4 device, however the resources I found online strongly discouraged this. The reason is that the USB port struggles to supply sufficient current to program these chips at 5v anyway and any additional circuitry will further reduce the available programming current. Before programming our device, we must reconfigure the project to use the PICkit4 programmer and configure the programmer to NOT attempt to power the target device.
 
 1. Open the project settings and select the PICkit4 device and apply the selection.
 
