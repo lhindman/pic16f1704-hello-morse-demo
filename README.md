@@ -48,7 +48,7 @@ That this point, LED D7 should begin flashing the morse code signal for our mess
 
 ![Data Visualizer Application](images/data_visualizer_serial.png "Data Visualizer for Serial Data")
 
-If you see the works "HELLO WORLD" repeated every few seconds, congratulations, you've sucessfully deployed the demo project to your device. :)
+If you see the words "HELLO WORLD" repeated every few seconds, congratulations, you've sucessfully deployed the demo project to your device. :)
 
 ## Standalone Chip
 The curiosity development board is great, but the purpose of using these PIC microcontrollers is to integrate them into our electronics projects. Our next step is to build a small PIC16F1704 circuit on a breadboard and then use the MPLAB PICkit4 programmer to load code onto the PIC in circuit.
